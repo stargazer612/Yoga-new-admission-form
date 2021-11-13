@@ -60,3 +60,5 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Simple build for production
 
     $ npm build
+![Server](https://user-images.githubusercontent.com/44711728/141607523-7eee1e25-c1f3-4076-82b9-0e7f1066d964.PNG)
+
