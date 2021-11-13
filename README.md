@@ -1,6 +1,5 @@
 # Yoga Form Backend
 
----
 ## Requirements
 
 For development, you will only need Node.js and a node global package, npm, installed in your environement.
@@ -47,7 +46,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ cd yoga_backend
     $ npm install dependencies
 
-##Dependencies Required
+## Dependencies Required
 
     $npm i cors validator nodemon mongoose email-validator express dotenv
 ---
