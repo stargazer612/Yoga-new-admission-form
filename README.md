@@ -1,8 +1,7 @@
 # F_Intern
 Frontend+Backend code for Flexmoney Internship Assignment
-# Getting Started with Create React App
+# Getting Started with NPM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -10,11 +9,11 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the server of the application in the development mode.\
+Runs on http://localhost:8000
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Any errors will be shown in console/terminal.
+Server will reload automatically if you make any edits.
 
 ### `npm test`
 
