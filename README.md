@@ -44,11 +44,11 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
     $ git clone https://github.com/Yashaswajain/F_Intern/yoga_backend
     $ cd yoga_backend
-    $ npm install dependencies
+    
 
-## Dependencies Required
+## Installing Dependencies 
 
-    $npm i cors validator nodemon mongoose email-validator express dotenv
+    $ npm i cors validator nodemon mongoose email-validator express dotenv
 ---
 
 ## Running the project
