@@ -50,6 +50,10 @@ function Form() {
               else{
                 const message=responseData.message
                 window.alert(message)
+                //If plan is active then simply reload the application
+                if(message_id=="2"){
+                    window.location.reload()
+                }
               }
           }).catch((err)=>{
               console.log(`Error in accessing the server is ${err}`)
