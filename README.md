@@ -1,6 +1,7 @@
 # Yoga Form Backend
 
-## Requirements
+## You need to run Frontend and Backend separately
+## Requirements 
 
 For development, you will only need Node.js and a node global package, npm, installed in your environement.
 
