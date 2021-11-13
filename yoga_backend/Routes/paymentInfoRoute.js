@@ -2,6 +2,7 @@ const express=require('express')
 const router=express.Router()
 const paymentCollection=require('./../Models/paymentInfo')
 const validator = require("email-validator")
+console.log("HI")
 
 //post route to store payment information of users in database
 router.post('/payment',(req,res)=>{
