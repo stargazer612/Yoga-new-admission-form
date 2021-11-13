@@ -13,6 +13,11 @@ router.post('/payment',(req,res)=>{
         res.status(400).json({"message":"Email missing","message_id":"0"})
         return ;
     }
+    //If no payment is selected
+    else if(mode==""){
+        res.status(400).json({"message":"Please select a mode of payment","message_id":"0"})
+        return ;
+    }
     //Foreign key is present
     else{
         //Find whether a payment method with this email id present or not
@@ -27,6 +32,7 @@ router.post('/payment',(req,res)=>{
                         res.status(400).json({"message":"Insufficient Information in card details","message_id":"0"})
                         return ;
                     }
+                    
                     //Check if account number is 16 digits or not
                     else if(cardNo.length!=16){
                          res.status(400).json({"message":"Invalid card number","message_id":"0"})
