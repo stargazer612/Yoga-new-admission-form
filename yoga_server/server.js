@@ -11,7 +11,7 @@ require('dotenv').config()
 
 //Setup database entities
 const DB_PASS=process.env.DB_PASS
-const DB_LINK=`mongodb+srv://Yashaswa:${DB_PASS}@cluster0.rtncy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+const DB_LINK=`mongodb+srv://stargazer612:oizu9bwYHgxl85ln@cluster0.fcwz9bq.mongodb.net/?retryWrites=true&w=majority`
 
 //Middleware
 app.use(CORS())

@@ -3,6 +3,7 @@ import Form from './Components/Form'
 import Payment from './Components/Payment';
 import Header from './Components/Header';
 import Completion from './Components/Completion'
+// import NewForm from './Components/NewForm';
 
 function App() {
   return (

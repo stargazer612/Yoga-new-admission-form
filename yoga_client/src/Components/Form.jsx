@@ -106,7 +106,7 @@ function Form() {
                     </div>
                   </div>
             </div>
-            <button className="toPayment" onClick={SaveData}>Continue <i class="fas fa-arrow-right"></i></button>
+            <button className="toPayment" onClick={SaveData}>Next <i class="fas fa-arrow-right"></i></button>
         </div>
     )
 }
